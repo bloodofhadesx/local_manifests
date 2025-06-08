@@ -88,7 +88,7 @@
   <project path="hardware/xiaomi"
            name="AxionAOSP/android_hardware_xiaomi"
            remote="github"
-           revision="lineage-22.2" />
+           revision="lineage-22.1" />
 
   <project path="packages/apps/DisplayFeatures"
            name="cyberknight777/android_packages_apps_DisplayFeatures"
