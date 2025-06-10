@@ -8,9 +8,6 @@
   <remote name="lindroid"
           fetch="https://github.com/Linux-on-droid/" />
   
-  <remote name="github"
-          fetch="https://github.com/" />
-  
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
