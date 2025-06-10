@@ -16,13 +16,13 @@
 
   <!-- Remove Projects -->
   <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="android_frameworks_base" />
-  <remove-project name="android_frameworks_native" />
-  <remove-project name="android_system_core" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_system_core" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/laurel_sprout"
-           name="device-xiaomi_laurel_sprout"
+           name="device_xiaomi_laurel_sprout"
            remote="bldfhds"
            revision="ldroid" />
 
@@ -65,7 +65,7 @@
            name="android_frameworks_native"
            remote="bldfhds"
            revision="ldroid"
-           groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+           groups="pdk" />
 
   <!-- System -->
   <project path="system/core"
@@ -73,31 +73,5 @@
            remote="bldfhds"
            revision="ldroid"
            groups="pdk" />
-
-  <!-- Hardware & Features -->
-  <project path="hardware/qcom-caf/sm8150/display"
-           name="PowerX-NOT/hardware_qcom-caf_sm8150_display"
-           remote="github"
-           revision="main" />
-  
-  <project path="hardware/dolby"
-           name="PowerX-NOT/hardware_dolby"
-           remote="github"
-           revision="XiaomiDolby" />
-  
-  <project path="hardware/xiaomi"
-           name="AxionAOSP/android_hardware_xiaomi"
-           remote="github"
-           revision="lineage-22.2" />
-
-  <project path="packages/apps/DisplayFeatures"
-           name="cyberknight777/android_packages_apps_DisplayFeatures"
-           remote="github"
-           revision="master" />
-
-  <project path="vendor/MiuiCamera"
-           name="Joker-V2/android_vendor_MiuiCamera"
-           remote="gitlab"
-           revision="fifteen" />
 
 </manifest>
