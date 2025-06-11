@@ -12,7 +12,6 @@
           fetch="https://gitlab.com/" />
 
   <!-- Remove Projects -->
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_system_core" />
