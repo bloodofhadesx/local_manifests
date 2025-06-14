@@ -8,17 +8,25 @@
   <remote name="lindroid"
           fetch="https://github.com/Linux-on-droid/" />
   
-  <remote name="gitlab"
+  <remote name="gl"
           fetch="https://gitlab.com/" />
+
+  <remote name="gh"
+          fetch="https://github.com/" />
 
   <!-- Remove Projects -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_system_core" />
 
-  <!-- Device Tree -->
+  <!-- Device Trees -->
   <project path="device/xiaomi/laurel_sprout"
            name="device_xiaomi_laurel_sprout"
+           remote="bldfhds"
+           revision="ldroid" />
+
+  <project path="device/xiaomi/sm6125-common"
+           name="android_device_xiaomi_sm6125-common"
            remote="bldfhds"
            revision="ldroid" />
 
@@ -29,7 +37,7 @@
            revision="ldroid" />
 
   <!-- Kernel Source -->
-  <project path="kernel/xiaomi/laurel_sprout"
+  <project path="kernel/xiaomi/sm6125"
            name="kernel_xiaomi_laurel_sprout"
            remote="bldfhds"
            revision="lotus" />
@@ -70,4 +78,10 @@
            revision="ldroid"
            groups="pdk" />
 
+  <!-- Hardware -->
+  <project path="hardware/xiaomi"
+           name="LineageOS/android_hardware_xiaomi"
+           remote="gh"
+           revision="lineage-22.2" />
+  
 </manifest>
