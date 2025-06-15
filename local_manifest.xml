@@ -34,8 +34,8 @@
   <project path="vendor/xiaomi/laurel_sprout"
            name="vendor_xiaomi_laurel_sprout"
            remote="bldfhds"
-           revision="ldroid" />
-           groups="muppets,muppets_laurel_sprout"
+           revision="ldroid"
+           groups="muppets,muppets_laurel_sprout" />
   
   <project path="vendor/xiaomi/sm6125-common"
            name="TheMuppets/proprietary_vendor_xiaomi_sm6125-common"
